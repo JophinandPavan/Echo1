@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+    android:padding="13dp"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:background="@drawable/joey"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/joey"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/about_us_text"
+            android:textSize="17sp"
+            android:textColor="#212121"
+            android:gravity="center"
+            android:layout_marginTop="11dp"
+            android:layout_below="@+id/joey"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView"
+            android:textSize="17sp"
+            android:textColor="#212121"
+            android:layout_below="@+id/about_us_text"
+            android:text="App version: 1.0"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
